@@ -882,6 +882,7 @@ iframe { border: none; display: block; }
     right: 0;
     bottom: 0;
     width: min(320px, 100vw);
+    height: fit-content;
     background: rgba(11, 11, 15, 0.98);
     backdrop-filter: blur(20px);
     padding: 100px var(--sp-xl) var(--sp-xl);
