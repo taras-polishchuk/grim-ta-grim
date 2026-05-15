@@ -123,7 +123,7 @@
       <!-- ===== BAND MEMBERS ===== -->
       <section class="members" id="about">
         <div class="container">
-          <h2 class="section-title reveal">Учасники гурту</h2>
+          <h2 class="section-title section-title--center reveal">Учасники гурту</h2>
           <div class="members__grid">
 
             <article class="member-card reveal">
@@ -172,13 +172,6 @@
       <!-- ===== STORY ===== -->
       <section class="story" id="gallery">
         <div class="container story__inner">
-          <div class="story__content reveal">
-            <h2 class="story__title">Наша історія</h2>
-            <p>«Грим та Грім» народжується з бажання створювати музику, яка відчувається серцем. Ми почали свій шлях у маленькій студії в центрі Києва, де кожен акорд, кожне слово було наповнене емоціями та переживаннями. Це було місце, де народжувались наші перші пісні, де ми вчились грати разом як єдиний організм.</p>
-            <p>За роки нашої діяльності ми виступили на десятках сцен, від невеликих клубів до великих фестивалів. Наша музика — це поєднання традиційного року з сучасними елементами, що робить її унікальною та впізнаваною. Ми не боїмося експериментувати зі звуком, додаємо електронні елементи або народні інструменти.</p>
-            <p>Кожен наш виступ — це не просто концерт, а справжня подія, де ми відчуваємо свою єдність з глядачами та створюємо неповторну атмосферу. Ми віримо, що музика має силу об'єднувати людей, створювати спільноту та надихати на зміни.</p>
-            <p>Наш колектив складається з досвідчених музикантів, кожен з яких привносить свій унікальний стиль та бачення. Максим створює найзапальніші гітарні рифи, Олена зачаровує своїм вокалом, а Тарас створює ритми, який змушує серце битися в унісон з музикою.</p>
-          </div>
           <div class="story__photo reveal">
             <img
               src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=700&q=80"
@@ -186,6 +179,13 @@
               class="story__img"
               loading="lazy"
             />
+          </div>
+          <div class="story__content reveal">
+            <h2 class="story__title">Наша історія</h2>
+            <p>«Грим та Грім» народжується з бажання створювати музику, яка відчувається серцем. Ми почали свій шлях у маленькій студії в центрі Києва, де кожен акорд, кожне слово було наповнене емоціями та переживаннями. Це було місце, де народжувались наші перші пісні, де ми вчились грати разом як єдиний організм.</p>
+            <p>За роки нашої діяльності ми виступили на десятках сцен, від невеликих клубів до великих фестивалів. Наша музика — це поєднання традиційного року з сучасними елементами, що робить її унікальною та впізнаваною. Ми не боїмося експериментувати зі звуком, додаємо електронні елементи або народні інструменти.</p>
+            <p>Кожен наш виступ — це не просто концерт, а справжня подія, де ми відчуваємо свою єдність з глядачами та створюємо неповторну атмосферу. Ми віримо, що музика має силу об'єднувати людей, створювати спільноту та надихати на зміни.</p>
+            <p>Наш колектив складається з досвідчених музикантів, кожен з яких привносить свій унікальний стиль та бачення. Максим створює найзапальніші гітарні рифи, Олена зачаровує своїм вокалом, а Тарас створює ритми, який змушує серце битися в унісон з музикою.</p>
           </div>
         </div>
       </section>
@@ -198,31 +198,33 @@
           <div class="contact__inner">
 
             <form class="contact__form reveal" id="contactForm" novalidate>
-              <div class="form-group">
-                <label class="form-label" for="name">Ім'я</label>
-                <input
-                  class="form-input"
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Твоє ім'я"
-                  required
-                  autocomplete="name"
-                />
-                <span class="form-error" id="nameError"></span>
-              </div>
-              <div class="form-group">
-                <label class="form-label" for="email">Email</label>
-                <input
-                  class="form-input"
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="your@email.com"
-                  required
-                  autocomplete="email"
-                />
-                <span class="form-error" id="emailError"></span>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="name">Ім'я</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Твоє ім'я"
+                    required
+                    autocomplete="name"
+                  />
+                  <span class="form-error" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Email</label>
+                  <input
+                    class="form-input"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@email.com"
+                    required
+                    autocomplete="email"
+                  />
+                  <span class="form-error" id="emailError"></span>
+                </div>
               </div>
               <div class="form-group">
                 <label class="form-label" for="message">Повідомлення</label>
